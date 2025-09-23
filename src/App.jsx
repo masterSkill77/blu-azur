@@ -1,10 +1,16 @@
 import './App.css';
 import { Menu } from '@/components/navbar/menu';
+import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+        
 
 function App() {
 	return (
 		<>
-			<Menu />
+			<PrimeReactProvider>
+				<Menu />
+				<div>Hero</div>
+			</PrimeReactProvider>
+			
 		</>
 	);
 }
