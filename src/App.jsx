@@ -1,6 +1,8 @@
 import './App.css';
 import { Menu } from '@/components/navbar/menu';
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+import Second from './components/second';
+import Third from './components/third';
         
 
 function App() {
@@ -8,9 +10,9 @@ function App() {
 		<>
 			<PrimeReactProvider>
 				<Menu />
-				<div>Hero</div>
+				<Second/>
+				<Third/>
 			</PrimeReactProvider>
-			
 		</>
 	);
 }

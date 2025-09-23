@@ -1,7 +1,6 @@
 import 'primeicons/primeicons.css'
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import 'primereact/resources/primereact.css';
-import { Button } from 'primereact/button';
 import { Facebook, Youtube, Instagram, Twitter, CircleChevronRight } from 'lucide-react';
 
 // bg-[url(assets/images/hero.jpg)] bg-cover bg-center
@@ -14,7 +13,7 @@ export const Menu = () => {
 				bg-[linear-gradient(to_right,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.1)_50%,transparent_100%),url('assets/images/hero.jpg')] 
 				bg-cover bg-center"
 			>
-			<div className='g-[url(assets/images/hero.jpg)] bg-cover bg-center min-[3556px]:w-[171px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
+			<div className='min-[3556px]:w-[171px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
 				<div className='text-white flex flex-col gap-4 mb-10 items-center'>
 					<Facebook />
 					<Youtube />
@@ -30,7 +29,8 @@ export const Menu = () => {
 							<li><a href="" className='active:underline underline-offset-1 text-white'>A propos</a></li>
 							<li><a href="" className='active:underline underline-offset-1  text-white'>Localisation</a></li>
 							<li><a href="" className='active:underline underline-offset-1  text-white'>Activites</a></li>
-							<li><a href="" className='active:underline underline-offset-1  text-white'>Reserve</a></li>
+							<li className='bg-[#4097FF]'><button>Reserve</button>
+							</li>
 						</ul>
 					</nav>
 				</div>
