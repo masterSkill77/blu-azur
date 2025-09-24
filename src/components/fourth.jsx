@@ -2,7 +2,7 @@ import React from 'react';
 import { CircleChevronRight } from 'lucide-react';
 import fondEcran from '@/assets/images/fond-ecran.png';
 import mapImage from '@/assets/images/map.png';
-import position from '../../node_modules/dom-helpers/esm/position';
+import Map from '@/assets/images/photo_map.png';
 
 function Fourth() {
   return (
@@ -30,9 +30,9 @@ function Fourth() {
       </div>
 
       {/* Image en background */}
-      <div className='w-[40%] h-[400px] rounded-lg shadow-lg'>
-        <img src={fondEcran} alt="" />
-        <div className='relative top-[-360px] left-[-50px] w-[70px] h-auto border-4 border-white rounded-lg shadow-lg overflow-hidden'>
+      <div className='relative w-[40%] h-[400px] rounded-lg shadow-lg'>
+        <img src={Map} alt="Map" className='w-full h-full object-cover'/>
+        <div className='absolute top-[-20px] left-[-20px] w-[70px] h-auto border-4 border-white rounded-lg shadow-lg overflow-hidden'>
          <img src={mapImage} alt="" />
         </div>
       </div>

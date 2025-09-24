@@ -29,7 +29,8 @@ export const Menu = () => {
 							<li><a href="" className='active:underline underline-offset-1 text-white'>A propos</a></li>
 							<li><a href="" className='active:underline underline-offset-1  text-white'>Localisation</a></li>
 							<li><a href="" className='active:underline underline-offset-1  text-white'>Activites</a></li>
-							<li className='bg-[#4097FF]'><button>Reserve</button>
+							<li className='bg-[#4097FF] p-[1em]'>
+								<button>Reserve</button>
 							</li>
 						</ul>
 					</nav>

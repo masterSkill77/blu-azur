@@ -5,6 +5,8 @@ import Second from './components/second';
 import Third from './components/third';
 import Fourth from './components/fourth';
 import Fifth from './components/fifth';
+import Sixth from './components/sixth';
+import Seventh from './components/navbar/seventh';
 import { DefaultLayout } from '@/layouts/default-layout';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
 				<Third />
 				<Fourth />
 				<Fifth />
+				<Sixth />
+				<Seventh />
 			</PrimeReactProvider>
 		</DefaultLayout>
 	);
