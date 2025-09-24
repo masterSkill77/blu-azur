@@ -1,0 +1,43 @@
+import React from 'react';
+import { CircleChevronRight } from 'lucide-react';
+import fondEcran from '@/assets/images/fond-ecran.png';
+import mapImage from '@/assets/images/map.png';
+import position from '../../node_modules/dom-helpers/esm/position';
+
+function Fourth() {
+  return (
+    <div
+      className='flex justify-between items-start p-10 bg-cover bg-center relative'
+      style={{ backgroundImage: `url(${fondEcran})` }}
+    >
+      {/* Texte */}
+      <div className='flex justify-center mt-[50px]'>
+        <div className='w-[40%] mx-auto text-justify'>
+          <h1 className='font-semibold text-xl'>
+            Où se trouve Blu Azur à <br />
+            <span className='font-bold text-2xl'>Saint-Raphaël ?</span>
+          </h1>
+          <p className='mt-4 mb-4'>
+            Blu Azur est idéalement situé entre Saint-Tropez et Cannes, au cœur de l’une des plus belles stations balnéaires de France...
+          </p>
+          <div className='flex justify-between items-center gap-4 text-[#4097FF] border border-[#4097FF] p-3 rounded-lg'>
+            <button>
+              <a href="">Réservez Maintenant</a>
+            </button>
+            <CircleChevronRight />
+          </div>
+        </div>
+      </div>
+
+      {/* Image en background */}
+      <div className='w-[40%] h-[400px] rounded-lg shadow-lg'>
+        <img src={fondEcran} alt="" />
+        <div className='relative top-[-360px] left-[-50px] w-[70px] h-auto border-4 border-white rounded-lg shadow-lg overflow-hidden'>
+         <img src={mapImage} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Fourth;

@@ -3,6 +3,7 @@ import { Menu } from '@/components/navbar/menu';
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import Second from './components/second';
 import Third from './components/third';
+import Fourth from './components/fourth';
         
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 				<Menu />
 				<Second/>
 				<Third/>
+				<Fourth/>
 			</PrimeReactProvider>
 		</>
 	);
