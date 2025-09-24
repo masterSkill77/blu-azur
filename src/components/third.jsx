@@ -44,7 +44,7 @@ function Third() {
                 ))}
             </div>
             <div className='w-[40%] px-auto text-center'>
-                <h1 className='text-white'>Flânez sur la Promenade des Bains, explorez les criques secrètes ou partez en mer depuis son port de plaisance. Saint-Raphaël, c’est la Côte d’Azur dans toute sa splendeur !</h1>
+                <h1 >Flânez sur la Promenade des Bains, explorez les criques secrètes ou partez en mer depuis son port de plaisance. Saint-Raphaël, c’est la Côte d’Azur dans toute sa splendeur !</h1>
             </div>
         </div>
     )
