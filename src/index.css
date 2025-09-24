@@ -1,6 +1,11 @@
 @import "tailwindcss";
-        
-.body{
-    overflow-x: hidden;
+
+:root {
+    --font-primary: 'Mulish', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+    font-family: var(--font-primary);
+}
