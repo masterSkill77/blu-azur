@@ -4,7 +4,7 @@ import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import Second from './components/second';
 import Third from './components/third';
 import Fourth from './components/fourth';
-        
+import Fifth from './components/fifth';        
 
 function App() {
 	return (
@@ -14,6 +14,7 @@ function App() {
 				<Second/>
 				<Third/>
 				<Fourth/>
+				<Fifth/>
 			</PrimeReactProvider>
 		</>
 	);
