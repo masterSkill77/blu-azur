@@ -14,3 +14,22 @@ body {
     padding-right: 8rem;
     padding-left: 15rem;
 }
+
+.burger-menu {
+    display: flex;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 20px;
+    cursor: pointer;
+}
+.burger-menu .line {
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.burger-menu .line:nth-child(3) {
+    width: 70%;
+}

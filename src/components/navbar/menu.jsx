@@ -58,6 +58,13 @@ export const Menu = () => {
 										Réservé
 									</button>
 								</li>
+								<li>
+									<div className='burger-menu'>
+										<span className='line'></span>
+										<span className='line'></span>
+										<span className='line'></span>
+									</div>
+								</li>
 							</ul>
 						</nav>
 					</div>
