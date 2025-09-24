@@ -9,3 +9,8 @@ body {
     overflow-x: hidden;
     font-family: var(--font-primary);
 }
+
+.padding-container{
+    padding-right: 8rem;
+    padding-left: 15rem;
+}

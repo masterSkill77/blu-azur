@@ -8,6 +8,7 @@ import {
 	Twitter,
 	CircleChevronRight
 } from 'lucide-react';
+import { SectionTitle } from '../commons/section-title';
 
 // bg-[url(assets/images/hero.jpg)] bg-cover bg-center
 
@@ -15,7 +16,7 @@ export const Menu = () => {
 	return (
 		<>
 			<div
-				className="menu flex h-[450px] relative
+				className="menu flex h-screen relative
 				bg-[linear-gradient(to_right,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.1)_50%,transparent_100%),url('assets/images/hero.jpg')]
 				bg-cover bg-center">
 				<div className='min-[3556px]:w-[171px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
@@ -26,7 +27,7 @@ export const Menu = () => {
 						<Twitter />
 					</div>
 				</div>
-				<div className='w-full flex flex-col  px-[5rem]  mt-[10px] absolute top-[20px]'>
+				<div className='w-full flex flex-col  padding-container  mt-[10px] absolute top-[20px]'>
 					<div className=' border-b border-white/50 h-[50px] justify-between w-full'>
 						<nav className='flex justify-between items-center'>
 							<h1 className='text-white'>BLU AZUR</h1>
@@ -60,14 +61,16 @@ export const Menu = () => {
 							</ul>
 						</nav>
 					</div>
-					<div className='flex justify-between w-full mt-[50px]'>
-						<div>
-							<h1 className='text-white'>
-								Votre évasion
-								<br />
-								sur la Côte d’Azur !
-							</h1>
-							<p className='text-white mt-4 mb-4'>
+					<div className='flex justify-between w-full pt-64'>
+						<div className='w-1/2'>
+							<SectionTitle
+								reversed={true}
+								title={'Votre évasion'}
+								subtitle={"sur la Côte d'Azur !"}
+								className={'text-white text-6xl'}
+							/>
+
+							<p className='text-white mt-4 w-2/3 text-justify'>
 								Blu Azur vous invite à découvrir le charme de Saint-Raphaël, une
 								destination d’exception nichée entre Cannes et Saint-Tropez. Nos
 								appartements tout équipés, situés dans un domaine privé
@@ -76,16 +79,12 @@ export const Menu = () => {
 								centre-ville animé. Profitez d’un séjour alliant confort,
 								sérénité et élégance au cœur de la Riviera française !
 							</p>
-							<button className='flex justify-between items-center gap-4 text-white border-1 border-solid border-white p-3 rounded-full w-full'>
-								<a href=''>Réservez Maintenant </a>
+							<button className='flex justify-between items-center gap-4 text-white border-1 border-solid border-white py-3 px-8 rounded-full w-2/3 mt-26 font-bold'>
+								<a href=''>Réservez dès maintenant votre séjour</a>
 								<CircleChevronRight />
 							</button>
 						</div>
-						<div>
-							<button className='text-white border border-white p-3 rounded-lg'>
-								<a href=''>Réservez Maintenant</a>
-							</button>
-						</div>
+						<div></div>
 					</div>
 				</div>
 			</div>
