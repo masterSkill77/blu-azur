@@ -19,7 +19,7 @@ export const Menu = () => {
 				className="menu flex h-screen relative
 				bg-[linear-gradient(to_right,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.1)_50%,transparent_100%),url('assets/images/hero.jpg')]
 				bg-cover bg-center">
-				<div className='min-[3556px]:w-[171px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
+				<div className='w-[70px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
 					<div className='text-white flex flex-col gap-4 mb-10 items-center'>
 						<Facebook />
 						<Youtube />
