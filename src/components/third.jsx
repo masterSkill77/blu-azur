@@ -20,20 +20,20 @@ const images = [
 function Third() {
     return (
         <div
-            className="menu flex  flex-col justify-center items-center h-[450px] relative bg-cover bg-center"
+            className="menu flex  flex-col justify-center items-center gap-4 h-[450px] relative bg-cover bg-center"
             style={{
                 backgroundImage: `linear-gradient(to right, #4097FF 0%,rrgb(98, 158, 231) 50%,rgb(98, 158, 231) 75% ,transparent 100%), url(${hero})`
             }}
         >
-            <div className='mx-[5rem] border-1 border-solid'>
+            <div className='w-[40%] px-auto text-center'>
                 <h1>
                     Saint Raphaël,l’endroit parfait<br /> <span>pour vivre la Côte d’Azur</span>
                 </h1>
                 <p>Avec ses plages dorées, ses 300 jours de soleil et ses calanques sauvages, Saint-Raphaël est une destination de rêve. Entre mer turquoise et rochers rouges de l’Estérel, elle offre un cadre idyllique pour la détente et l’aventure.</p>
             </div>
-            <div className='mx-[5rem] flex gap-4 border border-solid p-2'>
+            <div className='w-full mx-[5rem] flex justify-center  border border-solid p-2'>
                 {images.map((img, index) => (
-                    <div key={index} className='flex flex-col items-center'>
+                    <div key={index} className='flex flex-col px-[5em]  items-center'>
                         <img
                             src={img.src}
                             alt={img.desc}
@@ -43,9 +43,9 @@ function Third() {
                     </div>
                 ))}
             </div>
-            <p>
-                Flânez sur la Promenade des Bains, explorez les criques secrètes ou partez en mer depuis son port de plaisance. Saint-Raphaël, c’est la Côte d’Azur dans toute sa splendeur !
-            </p>
+            <div className='w-[40%] px-auto text-center'>
+                <h1 className='text-white'>Flânez sur la Promenade des Bains, explorez les criques secrètes ou partez en mer depuis son port de plaisance. Saint-Raphaël, c’est la Côte d’Azur dans toute sa splendeur !</h1>
+            </div>
         </div>
     )
 }
