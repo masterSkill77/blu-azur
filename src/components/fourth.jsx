@@ -21,7 +21,7 @@ function Fourth() {
 						Blu Azur est idéalement situé entre Saint-Tropez et Cannes, au cœur
 						de l’une des plus belles stations balnéaires de France...
 					</p>
-					<div className='flex justify-between items-center gap-4 text-[#4097FF] border border-[#4097FF] p-3 rounded-lg'>
+					<div className='flex justify-between items-center gap-4 text-[#4097FF] border border-[#4097FF] p-3 rounded-full'>
 						<button>
 							<a href=''>Réservez Maintenant</a>
 						</button>

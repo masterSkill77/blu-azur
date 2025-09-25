@@ -3,12 +3,22 @@
 :root {
     --font-primary: 'Mulish', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
+    --primary-color: #4097FF;
 }
 
 body {
     overflow-x: hidden;
     font-family: var(--font-primary);
 }
+
+.primary-color {
+    @apply text-[#4097FF];
+}
+
+.bg-primary {
+    @apply bg-[#4097FF];
+}
+
 
 .padding-container{
     padding-right: 8rem;
@@ -33,3 +43,4 @@ body {
 .burger-menu .line:nth-child(3) {
     width: 70%;
 }
+
