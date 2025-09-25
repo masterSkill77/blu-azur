@@ -8,7 +8,7 @@ export const ServiceItem = ({ src, desc }) => {
 					className='object-cover '
 				/>
 			</div>
-			<div className='text-md mt-1 mx text-white text-center font-bold w-[100px]'>
+			<div className='text-md mt-1 mx-auto text-white text-center font-bold w-[100px]'>
 				{desc}
 			</div>
 		</div>

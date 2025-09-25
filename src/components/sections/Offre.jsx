@@ -10,7 +10,7 @@ import { ServiceItem } from '@/components/images-items/service.item';
 import { SectionTitle } from '../commons/section-title';
 
 const images = [
-	{ src: hero1, desc: 'Sports nautiques,plongée, voile' },
+	{ src: hero1, desc: 'Sports nautiques, plongée, voile' },
 	{ src: hero2, desc: "Randonnées et vélo dans l'Estérel" },
 	{ src: hero3, desc: 'Casino et vie nocturne animée' },
 	{ src: hero4, desc: 'Villages perchés et marchés provençaux' },
@@ -37,7 +37,7 @@ function Offre() {
 					idyllique pour la détente et l’aventure.
 				</p>
 			</div>
-			<div className='w-full mx-[5rem] flex justify-center p-2 gap-[2rem]'>
+			<div className='w-full mx-[5rem] flex justify-center p-2 gap-[5rem]'>
 				{images.map((img, index) => (
 					<ServiceItem
 						key={index}

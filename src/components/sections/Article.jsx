@@ -3,7 +3,7 @@ import { CircleChevronRight } from 'lucide-react';
 function Article() {
 	return (
 		<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 padding-container py-12'>
-			<div className="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-end rounded-[3rem] bg-[url('assets/images/1.png')] bg-cover bg-center text-white p-10 h-[500px]">
+			<div className="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-end rounded-[3rem] bg-[url('assets/images/1.png')] bg-cover bg-center text-white p-10 h-[400px]">
 				<h1 className='font-bold text-2xl mb-4'>Un patrimoine culturel</h1>
 				<p>
 					De Picasso à Cocteau, la Côte d’Azur a toujours été une terre
@@ -21,7 +21,7 @@ function Article() {
 				</p>
 			</div>
 
-			<div className="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-end rounded-[3rem] bg-[url('assets/images/2.png')] bg-cover bg-center text-white p-10 h-[500px]">
+			<div className="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-end rounded-[3rem] bg-[url('assets/images/2.png')] bg-cover bg-center text-white p-10 h-[400px]">
 				<h1 className='font-bold text-2xl mb-4'>
 					Le sport au rythme de la Méditerranée
 				</h1>
@@ -42,7 +42,7 @@ function Article() {
 				</p>
 			</div>
 
-			<div className="col-span-1 md:col-span-1 lg:col-span-2 flex flex-col justify-end bg-[#121212] rounded-[3rem] bg-[url('assets/images/3.png')] bg-cover bg-center text-white p-10 h-[500px]">
+			<div className="col-span-1 md:col-span-1 lg:col-span-2 flex flex-col justify-end bg-[#121212] rounded-[3rem] bg-[url('assets/images/3.png')] bg-cover bg-center text-white p-10 h-[600px]">
 				<h1 className='font-bold text-2xl mb-4'>
 					Une destination gourmande et authentique
 				</h1>
@@ -65,7 +65,7 @@ function Article() {
 				</div>
 			</div>
 
-			<div className="col-span-1 md:col-span-1 lg:col-span-2 flex bg-[#121212] flex-col justify-center pt-[20rem] rounded-[3rem] bg-[url('assets/images/4.png')] bg-cover bg-center text-white p-10 h-[500px]">
+			<div className="col-span-1 md:col-span-1 lg:col-span-2 flex bg-[#121212] flex-col justify-center pt-[20rem] rounded-[3rem] bg-[url('assets/images/4.png')] bg-cover bg-center text-white p-10 h-[600px]">
 				<h1 className='font-bold text-2xl mb-4'>
 					Des expériences inoubliables en famille
 				</h1>
@@ -78,7 +78,7 @@ function Article() {
 				</p>
 			</div>
 
-			<div className="col-span-1 md:col-span-1 lg:col-span-2 flex flex-col justify-end rounded-[3rem] bg-[url('assets/images/5.png')] bg-cover bg-center text-white p-10 h-[500px] bg-[#121212]">
+			<div className="col-span-1 md:col-span-1 lg:col-span-2 flex flex-col justify-end rounded-[3rem] bg-[url('assets/images/5.png')] bg-cover bg-center text-white p-10 h-[600px] bg-[#121212]">
 				<h1 className='font-bold text-2xl mb-4'>L’évasion en pleine nature</h1>
 				<p>
 					Le Massif de l’Estérel déploie ses roches rouges entre ciel et mer,
