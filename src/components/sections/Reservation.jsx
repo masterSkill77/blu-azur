@@ -1,6 +1,6 @@
 import { CircleChevronRight } from 'lucide-react';
 
-function seventh() {
+function Reservation() {
 	return (
 		<div className='w-full text-center text-white relative min-h-[80vh] flex items-center justify-center'>
 			<div
@@ -32,4 +32,4 @@ function seventh() {
 	);
 }
 
-export default seventh;
+export default Reservation;

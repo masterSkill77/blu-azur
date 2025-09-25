@@ -1,7 +1,7 @@
 import React from 'react'
 import GroupImage from '@/assets/images/group6.png';
 import fondEcran from '@/assets/images/pic_ours.png';
-function fifth() {
+function Decouverte() {
   return (
     <div 
       className='flex justify-between  bg-cover bg-center relative pl-[5rem] py-[3rem]'
@@ -25,4 +25,4 @@ function fifth() {
   )
 }
 
-export default fifth
+export default Decouverte

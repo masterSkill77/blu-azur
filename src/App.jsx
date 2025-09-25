@@ -1,25 +1,27 @@
 import './App.css';
-import { Menu } from '@/components/navbar/menu';
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
-import Second from './components/second';
-import Third from './components/third';
-import Fourth from './components/fourth';
-import Fifth from './components/fifth';
-import Sixth from './components/sixth';
-import Seventh from './components/navbar/seventh';
 import { DefaultLayout } from '@/layouts/default-layout';
+
+import { Hero } from './components/sections/Hero';
+import Service from './components/sections/Service';
+import Offre from './components/sections/Offre';
+import Localisation from './components/sections/Localisation';
+import Decouverte from './components/sections/Decouverte';
+import Article from './components/sections/Article';
+import Reservation from './components/sections/Reservation';
+import { Footer } from './components/footer/footer';
 
 function App() {
 	return (
 		<DefaultLayout>
 			<PrimeReactProvider>
-				<Menu />
-				<Second />
-				<Third />
-				<Fourth />
-				<Fifth />
-				<Sixth />
-				<Seventh />
+				<Hero />
+				<Offre />
+				<Service />
+				<Localisation />
+				<Decouverte />
+				<Article />
+				<Reservation />
 			</PrimeReactProvider>
 		</DefaultLayout>
 	);

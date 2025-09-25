@@ -2,9 +2,9 @@ import React from 'react';
 import hero1 from '@/assets/images/section_confort/image1.png';
 import hero2 from '@/assets/images/section_confort/image2.png';
 import { CircleChevronRight } from 'lucide-react';
-import { SectionTitle } from './commons/section-title';
+import { SectionTitle } from '../commons/section-title';
 
-function Second() {
+function Service() {
 	return (
 		<div className='flex gap-4 py-[10rem] justify-between items-stretch'>
 			<div className='w-1/2 py-24 padding-container'>
@@ -22,7 +22,7 @@ function Second() {
 				</div>
 				<div>
 					<h1 className='text-2xl mb-6 font-[400]'>Les inclusions :</h1>
-					<ul className='list-disc list-inside'>
+					<ul className='list-disc list-inside marker:text-blue-500 marker:text-4xl'>
 						<li>Stationnement privé</li>
 						<li>Piscine extérieure avec chaises longues</li>
 						<li>Linge de lit et serviettes</li>
@@ -63,4 +63,4 @@ function Second() {
 	);
 }
 
-export default Second;
+export default Service;

@@ -14,7 +14,7 @@ import { SectionTitle } from '../commons/section-title';
 
 // bg-[url(assets/images/hero.jpg)] bg-cover bg-center
 
-export const Menu = () => {
+export const Hero = () => {
 	return (
 		<>
 			<div
