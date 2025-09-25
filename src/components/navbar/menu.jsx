@@ -1,5 +1,7 @@
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
+import hero1 from '@/assets/images/section_confort/image1.png';
+import hero2 from '@/assets/images/section_confort/image2.png';
 import 'primereact/resources/primereact.css';
 import {
 	Facebook,
@@ -27,8 +29,8 @@ export const Menu = () => {
 						<Twitter />
 					</div>
 				</div>
-				<div className='w-full flex flex-col  padding-container  mt-[10px] absolute top-[20px]'>
-					<div className=' border-b border-white/50 h-[50px] justify-between w-full'>
+				<div className='w-full flex flex-col   mt-[10px] absolute top-[20px]'>
+					<div className=' border-b border-white/50 padding-container h-[50px] justify-between w-full'>
 						<nav className='flex justify-between items-center'>
 							<img
 								src='/images/logo.png'
@@ -73,7 +75,7 @@ export const Menu = () => {
 						</nav>
 					</div>
 					<div className='flex justify-between w-full pt-64'>
-						<div className='w-1/2'>
+						<div className='w-1/2 padding-container'>
 							<SectionTitle
 								reversed={true}
 								title={'Votre évasion'}
@@ -81,7 +83,7 @@ export const Menu = () => {
 								className={'text-white text-6xl'}
 							/>
 
-							<p className='text-white mt-4 w-2/3 text-justify'>
+							<p className='text-white mt-4 w-[90%] text-justify'>
 								Blu Azur vous invite à découvrir le charme de Saint-Raphaël, une
 								destination d’exception nichée entre Cannes et Saint-Tropez. Nos
 								appartements tout équipés, situés dans un domaine privé
@@ -90,12 +92,29 @@ export const Menu = () => {
 								centre-ville animé. Profitez d’un séjour alliant confort,
 								sérénité et élégance au cœur de la Riviera française !
 							</p>
-							<button className='flex justify-between items-center gap-4 text-white border-1 border-solid border-white py-3 px-8 rounded-full w-2/3 mt-26 font-bold'>
+							<button className='flex justify-between items-center gap-4 text-white border-1 border-solid border-white py-3 px-8 rounded-full w-[90%] mt-26 font-bold'>
 								<a href=''>Réservez dès maintenant votre séjour</a>
 								<CircleChevronRight />
 							</button>
 						</div>
-						<div></div>
+						<div className='w-1/4 flex justify-center items-center gap-2 relative mt-72'>
+							<img
+								src={hero1}
+								alt='Appartement'
+								className='w-full h-[200px] object-cover rounded-2xl'
+							/>
+							<img
+								src={hero2}
+								alt='Appartement'
+								className='w-2/3 h-[150px] object-cover rounded-2xl'
+							/>
+							<div className='w-5 absolute right-5 bottom-[45%]'>
+								<CircleChevronRight
+									color='#fff'
+									opacity={0.75}
+								/>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
