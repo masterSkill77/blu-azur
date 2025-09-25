@@ -19,7 +19,7 @@ export const Menu = () => {
 				className="menu flex h-screen relative
 				bg-[linear-gradient(to_right,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0.1)_50%,transparent_100%),url('assets/images/hero.jpg')]
 				bg-cover bg-center">
-				<div className='min-[3556px]:w-[171px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
+				<div className='w-[70px] bg-[#4097FF] opacity-50 flex flex-col justify-end'>
 					<div className='text-white flex flex-col gap-4 mb-10 items-center'>
 						<Facebook />
 						<Youtube />
@@ -30,7 +30,11 @@ export const Menu = () => {
 				<div className='w-full flex flex-col  padding-container  mt-[10px] absolute top-[20px]'>
 					<div className=' border-b border-white/50 h-[50px] justify-between w-full'>
 						<nav className='flex justify-between items-center'>
-							<h1 className='text-white'>BLU AZUR</h1>
+							<img
+								src='/images/logo.png'
+								alt='Blu Azur Logo'
+								className=' w-[100px] h-auto'
+							/>
 							<ul className='flex gap-10 items-center'>
 								<li>
 									<a
@@ -54,7 +58,7 @@ export const Menu = () => {
 									</a>
 								</li>
 								<li className=''>
-									<button className='py-2 px-10 rounded-full bg-[#4097FF] text-white font-bold'>
+									<button className='py-2 px-10 rounded-full bg-[#4097FF] text-white font-bold cursor-pointer'>
 										Réservé
 									</button>
 								</li>

@@ -11,8 +11,8 @@ function Fourth() {
 			className='flex justify-between items-start p-10 bg-cover bg-center relative'
 			style={{ backgroundImage: `url(${fondEcran})` }}>
 			{/* Texte */}
-			<div className='flex justify-center mt-[50px]'>
-				<div className='w-[40%] mx-auto text-justify'>
+			<div className='flex  mt-[50px]'>
+				<div className='w-3/4 padding-container text-justify'>
 					<SectionTitle
 						title='Où se trouve Blu Azur à'
 						subtitle='Saint-Raphaël ?'
